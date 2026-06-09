@@ -1,5 +1,6 @@
 import "./style.css"
 import Navbar from "./Navbar";
+import me from "../assets/me.jpg";
 
 function HomePage () {
     return <>
@@ -22,7 +23,7 @@ function HomePage () {
     <a href="#" className="icon"><i id="tw" class="fa-brands fa-square-twitter"></i></a>
     </p>
     </main>
-    <img src="me.jpg" id="pic"/>
+    <img src={me} id="pic"/>
     </main>
     </>
 }

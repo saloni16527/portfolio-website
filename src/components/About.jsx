@@ -1,5 +1,6 @@
 import "./style.css"
 import Navbar from "./Navbar";
+import pic from "../assets/pic.jpg";
 
 function About() {
     return <>
@@ -14,7 +15,7 @@ function About() {
             </h3>
         </ul>
         </main>
-        <img src="pic.jpg" id="photo"/>
+        <img src={pic} id="photo"/>
     </main>
     </>
 }
