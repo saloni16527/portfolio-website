@@ -842,9 +842,6 @@ input{
     .section{
         display: inline-block;
     }
-   /* #photo{
-        margin-left: 70px;
-    }*/
      #photo{
         margin-left: 150px;
     }
