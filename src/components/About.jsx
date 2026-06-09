@@ -14,7 +14,7 @@ function About() {
             </h3>
         </ul>
         </main>
-        <img src="pic.jpg" id="photo"/>
+        <img src="./pic.jpg" id="photo"/>
     </main>
     </>
 }

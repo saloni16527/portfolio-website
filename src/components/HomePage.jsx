@@ -22,7 +22,7 @@ function HomePage () {
     <a href="#" className="icon"><i id="tw" class="fa-brands fa-square-twitter"></i></a>
     </p>
     </main>
-    <img src="me.jpg" id="pic"/>
+    <img src="./me.jpg" id="pic"/>
     </main>
     </>
 }
