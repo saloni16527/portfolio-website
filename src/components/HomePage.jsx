@@ -1,5 +1,6 @@
 import "./style.css"
 import Navbar from "./Navbar";
+import image from "./me.jpg";
 
 function HomePage () {
     return <>
