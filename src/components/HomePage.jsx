@@ -12,8 +12,8 @@ function HomePage () {
     </div>
    
     <div className="me">
-    <h3>I'm Computer Science student,Just a Beginner in Web Development</h3>
-    <h3>Undergraduate B.TECH Student Focused on Frontend Technologies (HTML/CSS/JS).</h3>
+    <h3>I'm Computer Science student,Just a Beginner in Web Development,
+        Undergraduate B.TECH Student Focused on Frontend Technologies (HTML/CSS/JS).</h3>
    <button class="btn btn-pulse">Contact me</button>
    </div>
     <p>

@@ -156,7 +156,7 @@ p{
 }
 /* IMAGE */
 #pic {
-    width: 400px;
+    width: 350px;
     border-radius: 50%;
     box-shadow: 0 20px 40px rgba(0,0,0,0.5);
     animation: float 4s ease-in-out infinite;
@@ -677,7 +677,7 @@ input{
     }
 
     .split-text-container{
-        font-size:1.5rem;
+        font-size:2rem;
     }
 
     #pic{
@@ -841,7 +841,7 @@ input{
     }
 
     #pic{
-        width:350px;
+        /*width:350px;*/
         margin:40px;
     }
     .section{
