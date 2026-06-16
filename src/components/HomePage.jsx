@@ -2,6 +2,8 @@ import "./style.css"
 import Navbar from "./Navbar";
 import me from "../assets/me.jpg";
 import styles from "./homepage.module.css"
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 
 function HomePage () {
     return <>
@@ -15,14 +17,12 @@ function HomePage () {
     <div className={styles['me']}>
     <h3>I'm Computer Science student,Just a Beginner in Web Development,
         Undergraduate B.TECH Student Focused on Frontend Technologies (HTML/CSS/JS).</h3>
-   <button className={`${styles['btn']}  ${styles['btn-pulse']}`}>Contact me</button>
-   </div>
-    <p>
-    <a href="#" className="icon"><i id="face" class="fa-brands fa-square-facebook"></i></a>
-    <a href="#" className="icon"><i id="in" class="fa-brands fa-square-instagram"></i></a>
-    <a href="#" className="icon"><i id="li" class="fa-brands fa-linkedin"></i></a>
-    <a href="#" className="icon"><i id="tw" class="fa-brands fa-square-twitter"></i></a>
-    </p>
+    <button className={`${styles['btn']}  ${styles['btn-pulse']}`}>Contact me</button>
+    </div>
+    <div className={styles.iconbox}>
+    <a href="#" className={styles.icon}><FaLinkedin /></a>
+    <a href="#" className={styles.icon}><FaGithubSquare /></a> 
+    </div>
     </main>
     <img src={me} className={styles['pic']}/>
     </main>

@@ -4,8 +4,8 @@
 }
 .main{
     /*max-width:750px;
-    width:100%;*/
-    height: 400px;
+    width:100%;
+    height: 400px;*/
     padding-top: 10rem;
     margin-left: 100px;
 }
@@ -99,27 +99,13 @@ h3{
   }
 }
 /*LOGO*/
-p{
-    margin-top:20px;
+.iconbox{
+    max-width:600px;
+    width:100%;
 }
 .icon{
-    margin-left: 5px;
-}
-#face{
- font-size:30px;
- margin-right: 40px;
-}
-#in{
- font-size:30px;
- margin-right: 40px;
-}
-#li{
- font-size:30px;
- margin-right: 40px;
-}
-#tw{
- font-size:30px;
- margin-right: 40px;
+    font-size: 30px;
+    margin-left: 25px;
 }
 /* IMAGE */
 .pic {
@@ -127,6 +113,7 @@ p{
     border-radius: 50%;
     box-shadow: 0 20px 40px rgba(0,0,0,0.5);
     animation: float 4s ease-in-out infinite;
+    transition: all 0.3s ease;
     border: 10px solid #44444E;
     cursor: pointer;
 }
@@ -155,6 +142,10 @@ img{
 
     .me{
         width:100%;
+    }
+
+    .iconbox{
+        width: 100%;
     }
 
     .pic{
@@ -195,6 +186,10 @@ img{
         width:100%;
     }
 
+    .iconbox{
+        width: 100%;
+    }
+
     .pic{
         width:220px;
         margin:auto;
@@ -215,6 +210,15 @@ img{
 
     .me{
         width:100%;
+    }
+
+    .iconbox{
+        width: 100%;
+    }
+
+    .icon{
+        margin-left: 10px;
+        margin-right: 16px;
     }
 
     .pic{
