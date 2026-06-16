@@ -1,0 +1,33 @@
+.navbar{
+    position:sticky;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:8px;
+    z-index:1000;
+    background-color: #2a2a2a;
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar{
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:10px;
+    }
+
+    .navbar a{
+        font-size:16px;
+        margin-left:0;
+    }
+}

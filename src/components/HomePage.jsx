@@ -1,20 +1,21 @@
 import "./style.css"
 import Navbar from "./Navbar";
 import me from "../assets/me.jpg";
+import styles from "./homepage.module.css"
 
 function HomePage () {
     return <>
-    <main id="home"> 
-    <main className="main">
-     <div class="split-text-container">
-    <span class="text-part left">Hi,</span>
-    <span class="text-part right">Myself SALONI</span>
+    <main className={styles.home} id="home">
+    <main className={styles['main']}>
+     <div className={styles['split-text-container']}>
+    <span className= {`${styles['text-part']} ${styles['left']}`}>Hi,</span>
+    <span className={`${styles['text-part']}  ${styles['right']}`}>Myself SALONI</span>
     </div>
    
-    <div className="me">
+    <div className={styles['me']}>
     <h3>I'm Computer Science student,Just a Beginner in Web Development,
         Undergraduate B.TECH Student Focused on Frontend Technologies (HTML/CSS/JS).</h3>
-   <button class="btn btn-pulse">Contact me</button>
+   <button className={`${styles['btn']}  ${styles['btn-pulse']}`}>Contact me</button>
    </div>
     <p>
     <a href="#" className="icon"><i id="face" class="fa-brands fa-square-facebook"></i></a>
@@ -23,7 +24,7 @@ function HomePage () {
     <a href="#" className="icon"><i id="tw" class="fa-brands fa-square-twitter"></i></a>
     </p>
     </main>
-    <img src={me} id="pic"/>
+    <img src={me} className={styles['pic']}/>
     </main>
     </>
 }

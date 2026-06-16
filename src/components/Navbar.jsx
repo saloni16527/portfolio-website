@@ -1,8 +1,9 @@
 import "./style.css"
+import styles from "./navbar.module.css";
 
 function Navbar(){
     return <>
-    <div id="navbar">
+    <div className ={styles['navbar']}>
     <a href="#home">Home</a>
     <a href="#aboutme">About </a>
     <a href="#skill">Skills</a>
