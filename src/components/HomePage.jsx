@@ -20,8 +20,8 @@ function HomePage () {
     <button className={`${styles['btn']}  ${styles['btn-pulse']}`}>Contact me</button>
     </div>
     <div className={styles.iconbox}>
-    <a href="#https://www.linkedin.com/in/saloni-892543413?utm_source=share_via&utm_content=profile&utm_medium=member_android" className={styles.icon}><FaLinkedin /></a>
-    <a href="#https://github.com/saloni16527" className={styles.icon}><FaGithubSquare /></a> 
+    <a href="https://www.linkedin.com/in/saloni-892543413?utm_source=share_via&utm_content=profile&utm_medium=member_android" className={styles.icon}><FaLinkedin /></a>
+    <a href="https://github.com/saloni16527" className={styles.icon}><FaGithubSquare /></a> 
     </div>
     </main>
     <img src={me} className={styles['pic']}/>
