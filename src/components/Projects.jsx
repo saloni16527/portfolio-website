@@ -7,27 +7,33 @@ function Projects() {
   <div className="wave-container">
   <div className="card">
    <div class="pro">
-        <div className="img"></div>
+        <div>
+          <iframe src=" https://saloni16527.github.io/Web-page/" className="img"></iframe>  
+        </div>
         <h3 className="text">THE GREEN CAFE</h3>
         <p className="info">Responsive Web Page of Green Cafe build using HTML and CSS</p>
         <a className="git">Github link</a>
     </div>
    
     <div class="pro">
-        <div className="img"></div>
+        <div>
+           <iframe src=" https://saloni16527.github.io/stick-hero-game/" className="img"></iframe> 
+        </div>
         <h3 className="text">HERO GAME</h3>
         <p className="info">Responsive Stick Hero Game build using Javascript and React.js</p>
         <a className="git">Github link</a>
     </div>
 
     <div class="pro">
-        <div className="img"></div>
+        <div>
+         <iframe src="https://saloni16527.github.io/portfolio-website/" className="img"></iframe>
+        </div>
         <h3 className="text">PORTFOLIO</h3>
         <p className="info">Responsive Portfolio Website build Using React</p>
         <a className="git">Github link</a>
+        </div>
+        </div>
     </div>
-    </div>
- </div>
 </>
 }
 

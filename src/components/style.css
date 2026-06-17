@@ -115,7 +115,7 @@ h3{
 }
 
 /* 1. Pulse Animation */
-/*.btn-pulse {
+.btn-pulse {
   background-color: #44444E;
   color: white;
   animation: pulse 1.5s infinite;
@@ -353,24 +353,24 @@ img{
     padding-top: 50px;
 }
 .pro{
-    width: 340px;
-    height: 460px;
+    width: 380px;
+    height: 500px;
     border:2px solid #44444E;
     border-radius: 10px;
     margin-top: 80px;
     margin-left: 50px;
 }
-.img{ height: 280px;
-    width: 280px;
-    margin-top: 30px;
-    margin-left: 30px;
+.img{ height: 320px;
+    width: 340px;
+    margin-top: 25px;
+    margin-left: 20px;
     border-radius: 10px;
     background-color: whitesmoke;
 }
 .text{
     font-size: 30px;
-    margin-left: 25px;
-    margin-top: 7px;
+    margin-left: 20px;
+    margin-top: 12px;
 }
 .info{
     margin-left: 25px;
@@ -636,7 +636,7 @@ input{
     }
 
     .pro{
-        width:90%;
+       /* width:90%;*/
         margin:20px 0;
     }
 
@@ -766,10 +766,12 @@ input{
     }
 
     .pro{
-        width:70%;
-        max-width:350px;
+       /* width:70%;*/
+        max-width:340px;
     }
-
+    .img{
+        max-width: 300px;
+    }
     .text{
         font-size:22px;
     }
@@ -804,7 +806,11 @@ input{
 @media screen and (max-width:480px){
 
     .pro{
-        width:95%;
+       /* width:70%;*/
+        max-width:300px;
+    }
+    .img{
+        max-width: 260px;
     }
 
     /*.img{
@@ -822,6 +828,11 @@ input{
 
     #photo {
         width: 220px;
+    }
+    #name,
+    #email,
+    #msg{
+        max-width: 300px;
     }
 }
 @media screen and (max-width: 1300px) {
