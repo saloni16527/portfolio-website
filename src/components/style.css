@@ -347,30 +347,31 @@ img{
 }
 
 #proj{
-     font-size: 50px;
+    font-size: 50px;
     margin-top: 220px;
     text-align: center;
     padding-top: 50px;
 }
 .pro{
-    width: 380px;
+    width: 340px;
     height: 500px;
     border:2px solid #44444E;
     border-radius: 10px;
     margin-top: 80px;
     margin-left: 50px;
 }
-.img{ height: 320px;
-    width: 340px;
+.img{ height: 220px;
+    width: 300px;
     margin-top: 25px;
     margin-left: 20px;
     border-radius: 10px;
     background-color: whitesmoke;
 }
 .text{
-    font-size: 30px;
+    font-size: 26px;
     margin-left: 20px;
     margin-top: 12px;
+    color: whitesmoke;
 }
 .info{
     margin-left: 25px;
@@ -386,6 +387,30 @@ img{
     display: flex;
     margin-top: 50px;
     margin-left: 150px;
+}
+.logo{
+    font-size: 28px;
+    margin-left: 20px;
+    color: whitesmoke;
+    border: 2px solid #2a2a2a;
+    border-radius: 5px;
+}
+.demo{
+    width: 140px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.gthb{
+    width: 140px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #2a2a2a;
+    color: whitesmoke;
+    cursor: pointer;
 }
 /*CONTACT*/
 #cont{
@@ -768,6 +793,7 @@ input{
     .pro{
        /* width:70%;*/
         max-width:340px;
+        max-height: 460px;
     }
     .img{
         max-width: 300px;
@@ -808,6 +834,7 @@ input{
     .pro{
        /* width:70%;*/
         max-width:300px;
+        max-height: 480px;
     }
     .img{
         max-width: 260px;
@@ -833,6 +860,12 @@ input{
     #email,
     #msg{
         max-width: 300px;
+    }
+    .demo{
+        max-width: 120px;
+    }
+    .gthb{
+        max-width: 120px;
     }
 }
 @media screen and (max-width: 1300px) {
