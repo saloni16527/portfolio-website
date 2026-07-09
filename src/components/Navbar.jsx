@@ -5,7 +5,7 @@ function Navbar(){
     return <>
     <div className ={styles['navbar']}>
     <a href="#home">Home</a>
-    <a href="#aboutme">About </a>
+    <a href="#about">About </a>
     <a href="#skill">Skills</a>
     <a href="#proj">Porjects</a>
     <a href="#cont">Contact</a>

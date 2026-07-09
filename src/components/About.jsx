@@ -1,21 +1,22 @@
 import "./style.css"
 import Navbar from "./Navbar";
 import pic from "../assets/pic.jpg";
+import styles from "./about.module.css"
 
 function About() {
     return <>
-    <h1 id="aboutme">About</h1>
-    <main className="section">
-        <main className="paragraph">
+    <h1 className={styles.aboutme} id="about">About</h1>
+    <main className={styles['section']}>
+        <main className={styles['paragraph']}>
         <ul>
             <h3>
-            <li class="para">Hello! I'm Saloni, a Computer Science Engineering student with a deep passion for web development. I enjoy taking complex problems and turning them into simple, beautiful, and intuitive web applications.</li>
-            <li class="para">I am a proactive learner, combining my academic knowledge in CSE with hands-on web development using HTML5, CSS3, and JavaScript. Currently, I am exploring React and responsive design to build better user experiences.</li>
-            <li class="para">From building simple HTML pages to engaging web apps, I love the process of coding. I'm eager to build impactful digital solutions and contribute to open-source projects.</li>
+            <li className={styles['para']}>Hello! I'm Saloni, a Computer Science Engineering student with a deep passion for web development. I enjoy taking complex problems and turning them into simple, beautiful, and intuitive web applications.</li>
+            <li className={styles['para']}>I am a proactive learner, combining my academic knowledge in CSE with hands-on web development using HTML5, CSS3, and JavaScript. Currently, I am exploring React and responsive design to build better user experiences.</li>
+            <li className={styles['para']}>From building simple HTML pages to engaging web apps, I love the process of coding. I'm eager to build impactful digital solutions and contribute to open-source projects.</li>
             </h3>
         </ul>
         </main>
-        <img src={pic} id="photo"/>
+        <img src={pic} className={styles['photo']}/>
     </main>
     </>
 }

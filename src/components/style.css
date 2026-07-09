@@ -171,7 +171,7 @@ img{
     margin-top: 150px;
 }*/
 /*ABOUT*/
-#aboutme{
+/*#aboutme{
     font-size: 50px;
     margin-top: 200px;
     text-align: center;
@@ -198,9 +198,9 @@ img{
 }
 .section{
     display: inline-block;
-}
+}*/
 /*SKILL*/
-#skill{
+/*#skill{
     font-size: 50px;
     margin-top: 220px;
     text-align: center;
@@ -253,10 +253,10 @@ img{
 .cursor-box:hover::before {
     top: 100%;
     left: 100%;
-}
+}*/
 
 /* Unique styles */
-.html {
+/*.html {
     cursor: pointer;
     background: linear-gradient(145deg, #2a2a2a, #383838);
     border: 2px solid whitesmoke;
@@ -319,9 +319,9 @@ img{
     border-radius: 10px;
     margin-left: 20px;
     font-size: 70px;
-}
+}*/
 /*PROJECT*/
-.card div {
+/*.card div {
     display: inline-block;
     font-size: 4rem;
     animation: wave 2s ease-in-out infinite;
@@ -378,12 +378,12 @@ img{
     margin-top: 7px;
     font-size: 18px;
     margin-right: 24px;
-}
+}*/
 /*.githb{
     margin-left: 25px;
     font-size: 15px;
 }*/
-.card{
+/*.card{
     display: flex;
     margin-top: 50px;
     margin-left: 150px;
@@ -411,9 +411,9 @@ img{
     background-color: #2a2a2a;
     color: whitesmoke;
     cursor: pointer;
-}
+}*/
 /*CONTACT*/
-#cont{
+/*#cont{
     font-size: 50px;
     margin-top: 220px;
     text-align: center;
@@ -495,7 +495,7 @@ input{
 #copy1{
     margin-left: 620px;
 }
-
+*/
 
 
 /* ==========================

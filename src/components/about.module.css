@@ -1,0 +1,166 @@
+.aboutme{
+    font-size: 50px;
+    margin-top: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+.paragraph{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.para{
+    max-width:600px;
+    width:100%;
+    margin-top: 50px;
+    font-size: 27px;
+    margin-left: 80px;
+}
+.photo{
+    width: 300px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 240px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.section{
+    display: inline-block;
+}
+@media screen and (max-width: 1024px) {
+
+    .section{
+        display: inline-block;
+    }
+    .photo{
+        margin-left: 70px;
+    }
+      .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .para {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    h1{
+        font-size:40px;
+    }
+
+    h3{
+        font-size:18px;
+    }
+
+    .para{
+        font-size:18px;
+        width:95%;
+    }
+
+    .photo{
+        width:220px;
+    }
+}
+@media screen and (max-width: 480px){
+
+    h1{
+        font-size:32px;
+    }
+
+    .photo{
+        width:180px;
+    }
+}
+@media screen and (max-width: 992px){
+
+    .photo{
+        margin-left: 70px;
+        margin: 30px auto;
+    }
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .para {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+}
+@media screen and (max-width: 768px){
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paragraph {
+        margin: 20px;
+    }
+
+    .para {
+        width: 90%;
+        margin: 20px auto;
+        font-size: 20px;
+    }
+
+    .photo {
+        width: 280px;
+        height: auto;
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width:480px){
+
+    .para {
+        font-size: 16px;
+        width: 95%;
+        margin-left: 0;
+    }
+
+    .photo {
+        width: 220px;
+    }
+}
+@media screen and (max-width: 1300px) {
+
+    .section{
+        display: inline-block;
+    }
+    .photo{
+        margin-left: 150px;
+    }
+    .para {
+        width: 90%;
+        margin: 20px auto;
+    }
+}  
+@media screen and (max-width: 1150px) {
+    .photo{
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .para {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .photo {
+        margin: 30px auto;
+    }
+
+}  

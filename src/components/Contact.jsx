@@ -1,27 +1,30 @@
 import "./style.css"
 import Navbar from "./Navbar";
+import styles from "./contact.module.css"
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 
 function Contact () {
     return <>
-     <h1 id="cont">Contact</h1>
-    <h3 class="get">Lets Get-In Touch and Buid Something Amazing Together</h3>
-    <input type="text" placeholder="Enter name" id="name"/>
-    <input type="email" placeholder="Enter email" id="email"/>
-    <textarea placeholder="Your Message" id="msg"></textarea>
-    <button class="btn1 btn-pulse">Enter</button>
+     <h1 className={styles.cont} id="cont">Contact</h1>
+    <h3 className={styles['get']}>Lets Get-In Touch and Buid Something Amazing Together</h3>
+    <form>
+    <input type="text" placeholder="Enter name" className={styles['name']}/>
+    <input type="email" placeholder="Enter email" className={styles['email']}/>
+    <textarea placeholder="Your Message" className={styles['msg']}></textarea>
+    <button type="submit" className={`${styles['btn1']} ${styles['btn-pulse']}`}>Enter</button>
+    </form>
 
-    <div id="foot"> 
-    <div>
-    <a href="#"><i id="face1" class="fa-brands fa-square-facebook"></i></a>
-    <a href="#"><i id="in1" class="fa-brands fa-square-instagram"></i></a>
-    <a href="#"><i id="li1" class="fa-brands fa-linkedin"></i></a>
-    <a href="#"><i id="tw1" class="fa-brands fa-square-twitter"></i></a> 
+    <div className={styles['foot']}> 
+    <div className={styles['box']}>
+     <a href="https://www.linkedin.com/in/saloni-892543413?utm_source=share_via&utm_content=profile&utm_medium=member_android" className={styles.lkn}><FaLinkedin /></a>
+     <a href="https://github.com/saloni16527" className={styles.gtb}><FaGithubSquare /></a> 
     </div>
     <div>
-    <a id="copy">Follow me</a>
+    <a className={styles['copy']}>Follow me</a>
     </div>
     <div>
-    <a id="copy1"><i class="fa-solid fa-copyright"></i> Saloni-All Rights Reserved</a>
+    <a className={styles['copy1']}><i class="fa-solid fa-copyright"></i> Saloni-All Rights Reserved</a>
     </div>
     </div>
 

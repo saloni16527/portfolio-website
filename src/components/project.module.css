@@ -1,0 +1,222 @@
+.card div {
+    display: inline-block;
+    font-size: 4rem;
+    animation: wave 2s ease-in-out infinite;
+}
+
+.card div:nth-child(1) {
+    animation-delay: 0s;
+}
+.card div:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.card div:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.proj{
+    font-size: 50px;
+    margin-top: 220px;
+    text-align: center;
+    padding-top: 50px;
+}
+.pro{
+    width: 340px;
+    height: 500px;
+    border:2px solid #44444E;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.img{ height: 220px;
+    width: 300px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.text{
+    font-size: 26px;
+    margin-left: 20px;
+    margin-top: 12px;
+    color: whitesmoke;
+}
+.info{
+    margin-left: 25px;
+    margin-top: 7px;
+    font-size: 18px;
+    margin-right: 24px;
+}
+.card{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.logo{
+    font-size: 28px;
+    margin-left: 20px;
+    color: whitesmoke;
+    border: 2px solid #2a2a2a;
+    border-radius: 5px;
+}
+.demo{
+    width: 140px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.gthb{
+    width: 140px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #2a2a2a;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+/* ==========================
+   TABLET (768px - 1024px)
+========================== */
+@media screen and (max-width: 1024px) {
+
+    .para {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .card{
+        flex-wrap:wrap;
+        justify-content:center;
+        margin-left:0;
+    }
+
+    .pro{
+        margin:20px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+
+    h1{
+        font-size:40px;
+    }
+
+    h3{
+        font-size:18px;
+    }
+
+    .card{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .pro{
+       /* width:90%;*/
+        margin:20px 0;
+    }
+
+    .text{
+        font-size:24px;
+    }
+
+    .info{
+        font-size:16px;
+    }
+
+}
+@media screen and (max-width: 480px){
+
+    h1{
+        font-size:32px;
+    }
+
+    .text{
+        font-size:20px;
+    }
+
+    .info{
+        font-size:14px;
+    }
+}
+@media screen and (max-width: 992px){
+
+    .card{
+        gap:20px;
+    }
+
+}
+@media screen and (max-width: 768px){
+
+    .card{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .img{
+        max-width: 300px;
+    }
+
+    .pro{
+       /* width:70%;*/
+        max-width:340px;
+        max-height: 460px;
+    }
+    
+    .text{
+        font-size:22px;
+    }
+
+    .info{
+        font-size:15px;
+    }
+    
+}
+
+/* Small Phones */
+@media screen and (max-width:480px){
+
+    .pro{
+       /* width:70%;*/
+        max-width:300px;
+        max-height: 480px;
+    }
+    
+    .img{
+        max-width: 260px;
+    }
+
+    .text{
+        font-size:20px;
+    }
+   
+    .demo{
+        max-width: 120px;
+    }
+    .gthb{
+        max-width: 120px;
+    }
+}
+@media screen and (max-width: 1300px) {
+
+    .card{
+        flex-wrap:wrap;
+        justify-content:center;
+        margin-left:0;
+    }
+
+    .pro{
+        margin:20px;
+    }
+
+}

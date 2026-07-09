@@ -1,0 +1,210 @@
+.cont{
+    font-size: 50px;
+    margin-top: 220px;
+    text-align: center;
+    color: #44444E;
+    padding-top: 50px;
+}
+input{
+    width: 400px;
+    display: grid;
+}
+.get{
+    margin-top: 70px;
+    font-size: 30px;
+    margin-left: 350px;
+}
+.name{
+    height: 50px;
+    border: 5px solid #44444E;
+    border-radius: 10px;
+    margin-left: 550px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+.email{
+    height: 50px;
+    border:5px solid #44444E;
+    border-radius:10px;
+    margin-left: 550px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+.msg{
+    height: 80px;
+    border:5px solid #44444E;
+    border-radius:10px;
+    margin-left: 550px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    width: 400px;
+    display: grid;
+}
+.btn1 {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  width: 80px;
+  margin-left: 700px;
+  margin-top: 20px;
+}
+.btn-pulse {
+  background-color: #44444E;
+  color: white;
+  animation: pulse 1.5s infinite;
+}
+@keyframes pulse{
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.foot{
+    margin-top: 200px;
+}
+.lkn{
+ font-size:30px;
+ margin-top: 80px;
+ margin-left: 700px;
+ color: #6b6375;
+}
+.gtb{
+ font-size:30px;
+ margin-top: 80px;
+ color: #6b6375;
+}
+.copy{
+    margin-left: 700px;
+    color: #6b6375;
+}
+.copy1{
+    margin-left: 620px;
+    color: #44444E;
+}
+@media screen and (max-width: 1024px) {
+
+    .get{
+        margin-left:0;
+        text-align:center;
+    }
+
+    .name,
+    .email,
+    .msg{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .btn1{
+        display:block;
+        margin:20px auto;
+    }
+
+    .lkn,
+    .copy,
+    .copy1{
+        margin-left:0;
+    }
+
+    .foot{
+        text-align:center;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    h1{
+        font-size:40px;
+    }
+
+    h3{
+        font-size:18px;
+    }
+
+    .get{
+        font-size:20px;
+        padding:0 10px;
+    }
+
+    .btn1{
+        width:120px;
+    }
+
+    .lkn,
+    .gtb{
+        margin-left:10px;
+    }
+
+    .copy,
+    .copy1{
+        display:block;
+        text-align:center;
+    }
+}
+@media screen and (max-width: 480px){
+
+    h1{
+        font-size:32px;
+    }
+
+    .btn,
+    .btn1{
+        font-size:14px;
+    }
+}
+
+@media screen and (max-width:480px){
+
+    .name,
+    .email,
+    .msg{
+        max-width: 300px;
+    }
+    .demo{
+        max-width: 120px;
+    }
+    .gthb{
+        max-width: 120px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .get{
+        margin-left:0;
+        text-align:center;
+    }
+
+    .name,
+    .email,
+    .msg{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .btn1{
+        display:block;
+        margin:20px auto;
+    }
+    
+    .lkn,
+    .copy,
+    .copy1{
+        margin-left:0;
+    }
+
+    .foot{
+        text-align:center;
+    }
+}
