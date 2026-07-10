@@ -1,4 +1,3 @@
-import "./style.css"
 import styles from "./navbar.module.css";
 
 function Navbar(){
@@ -7,7 +6,7 @@ function Navbar(){
     <a href="#home">Home</a>
     <a href="#about">About </a>
     <a href="#skill">Skills</a>
-    <a href="#proj">Porjects</a>
+    <a href="#proj">Projects</a>
     <a href="#cont">Contact</a>
  </div>
     </>

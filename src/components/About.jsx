@@ -1,4 +1,3 @@
-import "./style.css"
 import Navbar from "./Navbar";
 import pic from "../assets/pic.jpg";
 import styles from "./about.module.css"

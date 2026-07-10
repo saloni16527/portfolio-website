@@ -1,4 +1,3 @@
-import "./style.css"
 import Navbar from "./Navbar";
 import styles from "./skill.module.css"
 

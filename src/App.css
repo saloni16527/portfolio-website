@@ -12,3 +12,12 @@ body {
     background-image: url("./assets/image.png");
   
 }
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    overflow-x:hidden;
+    width:100%;
+}

@@ -4,6 +4,9 @@
     text-align: center;
     padding-top: 50px;
 }
+main{
+    display: inline-block;
+}
 .paragraph{
     margin-top: 20px;
     margin-left: 50px;

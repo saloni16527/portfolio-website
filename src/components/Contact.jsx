@@ -1,4 +1,3 @@
-import "./style.css"
 import Navbar from "./Navbar";
 import styles from "./contact.module.css"
 import { FaLinkedin } from "react-icons/fa";

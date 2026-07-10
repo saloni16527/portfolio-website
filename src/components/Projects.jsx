@@ -1,4 +1,3 @@
-import "./style.css"
 import Navbar from "./Navbar";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
@@ -26,10 +25,12 @@ function Projects() {
         <FaHtml5 className={styles['logo']}/>
         <FaCss3Alt className={styles['logo']}/>
         </aside>
-        <button className={styles['demo']}>
+        <button className={styles['demo']} 
+        onClick={() => window.open("https://saloni16527.github.io/Web-page/")}>
           Live Demo <BsBoxArrowUpRight />
         </button>
-         <button className={styles['gthb']}>
+         <button className={styles['gthb']}
+        onClick={() => window.open("https://github.com/saloni16527/Web-page")}>
           <FaGithub /> GitHub
         </button>
     </div>
@@ -44,10 +45,12 @@ function Projects() {
         < IoLogoJavascript className={styles['logo']}/>
         <FaReact className={styles['logo']}/>
         </aside>
-        <button className={styles['demo']}>
+        <button className={styles['demo']}
+        onClick={() => window.open(" https://saloni16527.github.io/stick-hero-game/")}>
           Live Demo <BsBoxArrowUpRight />
         </button>
-         <button className={styles['gthb']}>
+         <button className={styles['gthb']}
+         onClick={() => window.open("https://github.com/saloni16527/stick-hero-game")}>
           <FaGithub /> GitHub
         </button>
     </div>
@@ -64,10 +67,12 @@ function Projects() {
         < IoLogoJavascript className={styles['logo']}/>
         <FaReact className={styles['logo']}/>
         </aside>
-        <button className={styles['demo']}>
+        <button className={styles['demo']}
+        onClick={() => window.open("https://saloni16527.github.io/portfolio-website/")}>
           Live Demo <BsBoxArrowUpRight />
         </button>
-         <button className={styles['gthb']}>
+         <button className={styles['gthb']}
+         onClick={() => window.open("https://github.com/saloni16527/portfolio-website")}>
           <FaGithub /> GitHub
         </button>
     </div>
